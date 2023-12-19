@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Motor Products</title>
+  <meta name="description" content="">
+<!-- 
+Motor Template
+http://www.templatemo.com/tm-463-motor
+-->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,700' rel='stylesheet' type='text/css'>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/templatemo-style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+  <script type="text/javascript" src="//cdn.evgnet.com/beacon/yamahamotorsports/yamaha_prototype_poc/scripts/evergage.min.js"></script>
+      </head>
+      <body>
+        <section class="templatemo-top-section">
+          <div class="templatemo-header">
+            <img class="templatemo-header-img" src="img/header.png" alt="Header">
+            <h1 class="templatemo-site-name">Motor</h1>
+            <div class="mobile-menu-icon">
+              <i class="fa fa-bars"></i>
+            </div>
+            <div class="templatemo-nav-container">
+              <nav class="templatemo-nav">
+                <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="products.html" class="active">Products</a></li>
+                 <li><a href="services.html">Services</a></li>
+                 <li><a href="gallery.html">Gallery</a></li>
+                 <li><a href="contact.html">Contact</a></li>
+               </ul>
+             </nav> 
+           </div>
+         </div>
+         <div class="templatemo-welcome">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-7 col-md-7 col-sm-6 col-xs-12">
+                <img src="img/welcome-img.png" class="img-responsive welcome-img" alt="Welcome">
+              </div>
+              <div class="col-lg-5 col-md-5 col-sm-6 col-xs-12">
+                <h2 class="text-uppercase">
+                  <span class="welcome-title-1">Yamaha</span>
+                  
+                </h2>
+                <p class="welcome-message">Motor is free Bootstrap v3.3.4 responsive web template provided 
+                by <span class="blue">template</span><span class="green">mo</span>.com website. You can download, 
+                modify and use this for your website projects.</p>
+                <a href="#" class="welcome-read-more">Read More</a>
+              </div>
+            </div>    
+          </div>
+        </div>
+      </section>
+      <section class="container margin-bottom-50">
+       <div class="row">
+        <h2 class="col-lg-12 text-center text-uppercase margin-bottom-30">Donec pede justo fringilla ulputate eget</h2>
+        <p class="col-lg-12 text-center margin-bottom-30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec.</p>
+        <div class="col-lg-12 tm-overflow-hidden">
+          <div class="tm-img-1-container">
+            <img src="img/ico_motorcycle.png" alt="Image description">
+            <p class="tm-img-1-description">Motorcycles</p>
+          </div>
+          <div class="tm-img-1-container">
+            <img src="img/motorcycle_off_road.png" alt="Image description">
+            <p class="tm-img-1-description">Off-Road</p>
+          </div>
+          <div class="tm-img-1-container">
+            <img src="img/side-by-side.png" alt="Image description">
+            <p class="tm-img-1-description">Side By Side</p>
+          </div>
+          <div class="tm-img-1-container">
+            <img src="https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2020/e864072c-26f3-41a9-bad0-1067321c24ac.png" alt="Image description">
+            <p class="tm-img-1-description">ATV</p>
+          </div>         
+        </div>
+      </div>
+    </section>    
+
+    <!--Main content-->
+
+    <section class="container margin-bottom-50">
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <span class="close" id="closeModal">&times;</span>
+          <p>Item added to cart</p>
+        </div>
+      </div>
+      <div class="tm-overflow-hidden row">
+        <div id="category-content" class="tm-gallery col-lg-9 col-md-9 col-sm-8 col-xs-12">
+          
+        </div>
+        <aside class="tm-gallery-aside col-lg-3 col-md-3 col-sm-4 col-xs-12">
+          <nav class="tm-gallery-nav">
+            <h2 class="tm-gallery-nav-title">Category <i class="fa fa-caret-up"></i></h2>
+            <ul>
+              <li>
+                <a onclick="loadCategory('Motorcycles');">
+                  Motorcycles
+                  <i class="fa fa-caret-right tm-gallery-list-fa"></i>
+                </a>
+              </li>
+              <li>
+                <a onclick="loadCategory('Off-Road');">
+                  Off-Road
+                  <i class="fa fa-caret-right tm-gallery-list-fa"></i>
+                </a>
+              </li>
+              <li>
+                <a onclick="loadCategory('Side By Side');">
+                  Side By Side
+                  <i class="fa fa-caret-right tm-gallery-list-fa"></i>
+                </a>
+              </li>
+              <li>
+                <a onclick="loadCategory('ATV');">
+                  ATV
+                  <i class="fa fa-caret-right tm-gallery-list-fa"></i>
+                </a>
+              </li>
+              
+            </ul>
+          </nav>
+          <div class="tm-call-us">
+            <h3 class="text-uppercase tm-call-us-title">Call us</h3>
+            <a href="tel:" class="tm-call-us-link">+11 565 789 57</a>
+          </div>    
+        </aside>
+      </div>
+
+      <!--banner-->
+      <div class="tm-banner">
+        <h2 class="tm-banner-title">Maecenas</h2>
+        <p class="tm-banner-description">Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium</p>
+        <a href="#" class="tm-banner-link"><i class="fa fa-play"></i></a>
+      </div>
+    </section> <!-- Main content -->
+    <!--Footer content-->
+    <footer class="tm-footer">
+      <div class="container">
+        <div class="row margin-bottom-60">
+          <nav class="col-lg-3 col-md-3 tm-footer-nav tm-footer-div">
+            <h3 class="tm-footer-div-title">Main Menu</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="gallery.html">Directory</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="services.html">Our Services</a></li>
+            </ul>
+          </nav>
+          <div class="col-lg-5 col-md-5 tm-footer-div">
+            <h3 class="tm-footer-div-title">About Us</h3>
+            <p class="margin-top-15">Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</p>
+            <p class="margin-top-15">Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus.</p>
+          </div>
+          <div class="col-lg-4 col-md-4 tm-footer-div">
+            <h3 class="tm-footer-div-title">Get Social</h3>
+            <p>Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante.</p>
+            <div class="tm-social-icons-container">
+              <a href="#" class="tm-social-icon"><i class="fa fa-facebook"></i></a>
+              <a href="#" class="tm-social-icon"><i class="fa fa-twitter"></i></a>
+              <a href="#" class="tm-social-icon"><i class="fa fa-linkedin"></i></a>
+              <a href="#" class="tm-social-icon"><i class="fa fa-youtube"></i></a>
+              <a href="#" class="tm-social-icon"><i class="fa fa-behance"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="row tm-copyright">
+          <p class="col-lg-12 small copyright-text text-center">Copyright &copy; 2084 Company Name</p>
+        </div>
+      </div>
+    </footer> <!-- Footer content-->
+    
+    <!-- JS -->
+    <script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>      <!-- jQuery -->
+    <script type="text/javascript" src="js/templatemo-script.js"></script>      <!-- Templatemo Script -->
+    <script type="text/javascript" src="js/product-objects.js"></script>      <!-- Products, Info Script -->
+    <script type="text/javascript" src="js/script.js"></script>      <!-- Products, Info Script -->
+    
+    <script type="text/javascript">
+  
+      const topAnchorsTag = document.getElementsByClassName('tm-img-1-container');
+
+      const topAnchorsArray = Array.from(topAnchorsTag);
+
+      topAnchorsArray.forEach(function (anchor) {
+        anchor.addEventListener('click', function (event) {
+          event.preventDefault(); // Prevent the default behavior of navigating to a new page
+          
+         
+          loadCategory(anchor.textContent.trim()); // Using the anchor text as a parameter
+    
+          // Optionally, you can also perform other actions or display alerts.
+          // For example: alert('Anchor click prevented');
+        });
+      })
+
+      
+      const anchorTags = document.querySelectorAll('.tm-gallery-nav a');
+      anchorTags.forEach(function (anchor) {
+        anchor.addEventListener('click', function (event) {
+          event.preventDefault(); // Prevent the default behavior of navigating to a new page
+          
+          // Here you can call your categoryClick function or perform other custom actions
+          loadCategory(anchor.textContent.trim()); // Using the anchor text as a parameter
+    
+          // Optionally, you can also perform other actions or display alerts.
+          // For example: alert('Anchor click prevented');
+        });
+      });
+
+        function loadCategory(category){
+            
+
+       
+            const contentDiv = document.getElementById('category-content');
+            
+            contentDiv.innerHTML = '';
+            const titleName = document.createElement('h3');
+
+            titleName.classList.add('tm-gallery-title');
+
+            if (categoryData.hasOwnProperty(category)) {
+
+              const items = categoryData[category];
+              titleName.textContent= category + ' (' + items.length + ')';
+              contentDiv.appendChild(titleName);
+
+
+              
+              items.forEach((item) => {
+                const itemDiv = document.createElement('div');
+                itemDiv.classList.add('tm-item-container');
+                
+                // Create and add content for each item
+                const img = document.createElement('img');
+                img.src = item.imageUrl;
+                img.alt = 'Image';
+
+                const name = document.createElement('p');
+                name.classList.add('tm-item-description')
+                name.textContent = item.name;
+
+                const priceContainer = document.createElement('div');
+                priceContainer.classList.add('tm-item-price-container');
+                priceContainer.classList.add('tm-price-order-container');
+      
+                const price = document.createElement('span');
+                price.classList.add('tm-item-price');
+                price.textContent = item.price;
+
+                const addTocartContainer = document.createElement('a');
+                const spanAddToCart = document.createElement('span');
+                addTocartContainer.classList.add('tm-item-link');
+                addTocartContainer.style.cursor = "pointer";
+                addTocartContainer.id = item.ID;
+                addTocartContainer.addEventListener('click', function(event) {
+                  //event.preventDefault(); // Prevent the default link behavior
+                  // Your action or code to be executed when any of the links is clicked
+                  modal.style.display = 'block';
+                });
+                spanAddToCart.classList.add('tm-item-action');
+                spanAddToCart.textContent = 'Add to Cart';
+
+                
+
+                const cartImg = document.createElement('img');
+                cartImg.classList.add('tm-item-add-icon');
+                cartImg.src = 'img/plus.png';
+                cartImg.alt = 'Image';
+
+                const imgContainer = document.createElement('a');
+                imgContainer.href= item.productLink;
+               
+                imgContainer.appendChild(img);
+                
+                // Append the elements to the item container
+                priceContainer.appendChild(price);
+                priceContainer.appendChild(addTocartContainer);
+                addTocartContainer.appendChild(spanAddToCart);
+                addTocartContainer.appendChild(cartImg);
+                
+                itemDiv.appendChild(imgContainer);
+                itemDiv.appendChild(name);
+                itemDiv.appendChild(document.createElement('hr'));
+                itemDiv.appendChild(priceContainer);
+      
+                contentDiv.appendChild(itemDiv);
+              });
+            }
+        }
+    </script>
+  </body>
+  </html>
