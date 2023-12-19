@@ -6,7 +6,7 @@ const categoryData = {
         price:'$16,699',
         subcategory:'Sport',
         imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/4dc57ed5-4a65-4963-a2d6-afd571510f59.png',
-        productLink:'/poc_yamaha/poc_yamaha/single1.html',
+        productLink:'/poc_yamaha/single1.html',
       },
       {
         ID:"YMH253",
