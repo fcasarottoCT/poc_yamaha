@@ -6,7 +6,7 @@ const categoryData = {
         price:'$16,699',
         subcategory:'Sport',
         imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/4dc57ed5-4a65-4963-a2d6-afd571510f59.png',
-        productLink:'/single_1.html',
+        productLink:'/poc_yamaha/poc_yamaha/single1.html',
       },
       {
         ID:"YMH253",
@@ -14,7 +14,7 @@ const categoryData = {
         price:'$9,399',
         subcategory:'Naked',
         imageUrl:'https://mlfiglnuxfgt.i.optimole.com/RJvaaXw--yAYQuRB/w:auto/h:auto/q:eco/https://dvrmotosyamaha.com.br/wp-content/uploads/2017/09/MT09-STORM-FLUO-2024-760x570-c-default.png',
-        productLink:'/single_2.html',
+        productLink:'/poc_yamaha/single2.html',
       },
       {
         ID:"YMH33",
@@ -22,7 +22,7 @@ const categoryData = {
         price:'$9,399',
         subcategory:'Adventure',
         imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/9376de5f-c0bc-426a-98ef-e12cfeac48e2.png',
-        productLink:'/single_3.html',
+        productLink:'/poc_yamaha/single3.html',
       },
       {
         ID:"YMH990",
@@ -30,7 +30,7 @@ const categoryData = {
         price:'$16,299',
         subcategory:'Touring',
         imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/eef274bb-a3d2-455b-93db-777f2c22ef9a.png',
-        productLink:'/single_4.html',
+        productLink:'/poc_yamaha/single4.html',
       },
       {
         ID:"YMH484",
@@ -38,7 +38,7 @@ const categoryData = {
         price:'$4,699',
         subcategory:'Dual-Sport',
         imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2022/81dfcf2d-63e2-46bf-a739-b3a85798753e.png',
-        productLink:'/single_13.html',
+        productLink:'/poc_yamaha/single13.html',
       },
       {
         ID:"YMH712",
@@ -46,7 +46,7 @@ const categoryData = {
         price:'$1,499',
         subcategory:'Youth',
         imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/822092df-f3fd-465f-a078-79bfc7797086.png',
-        productLink:'/single_14.html',
+        productLink:'/poc_yamaha/single14.html',
       }
       
     ],
@@ -57,7 +57,7 @@ const categoryData = {
       price:'$8,299',
       subcategory:'Trail',
       imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2022/ff03f27c-a1fd-43c8-8a69-d0809ff475f8.png',
-      productLink:'/single_11.html',
+      productLink:'/poc_yamaha/single11.html',
     },
     {
       ID:"YMH340",
@@ -65,7 +65,7 @@ const categoryData = {
       price:'$9,999',
       subcategory:'Motocross',
       imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/f508c717-fcb3-461b-8d95-9e7985294413.png',
-      productLink:'/single_12.html',
+      productLink:'/poc_yamaha/single12.html',
     },
     {
       ID:"YMH635",
@@ -73,7 +73,7 @@ const categoryData = {
       price:'$8,199',
       subcategory:'Motocross',
       imageUrl:'https://i.pinimg.com/originals/07/56/af/0756af3ed68d665e885ce78b2fac618c.png',
-      productLink:'/single_16.html',
+      productLink:'/poc_yamaha/single16.html',
     },
     {
       ID:"YMH439",
@@ -81,7 +81,7 @@ const categoryData = {
       price:'$9,599',
       subcategory:'Trail',
       imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/129daa4d-541e-44d9-8ec5-13bb274deefa.png',
-      productLink:'/single_17.html',
+      productLink:'/poc_yamaha/single17.html',
     },
     {
       ID:"YMH571",
@@ -89,7 +89,7 @@ const categoryData = {
       price:'$4,449',
       subcategory:'Trail',
       imageUrl:'https://www.tapajosmotocenter.com.br/wp-content/uploads/2022/03/TTR_230_03.png',
-      productLink:'/single_18.html',
+      productLink:'/poc_yamaha/single18.html',
     },
     
   ],
@@ -100,7 +100,7 @@ const categoryData = {
       price:'$15,299',
       subcategory:'Utility',
       imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/63b6166e-5842-4cfc-b401-9fd59f41521e.png',
-      productLink:'/single_19.html',
+      productLink:'/poc_yamaha/single19.html',
     },
     
     {
@@ -109,7 +109,7 @@ const categoryData = {
       price:'$21,799',
       subcategory:'Recreation',
       imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2021/6760b358-b6be-4a11-a394-e2c930f4835d.png',
-      productLink:'/single_20.html',
+      productLink:'/poc_yamaha/single20.html',
     },
     {
       ID:"YMH534",
@@ -117,7 +117,7 @@ const categoryData = {
       price:'$13,199',
       subcategory:'Recreation',
       imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2022/f8c91b60-c349-4f25-957f-352f1d30e828.png',
-      productLink:'/single_8.html',
+      productLink:'/poc_yamaha/single8.html',
     },
     {
       ID:"YMH133",
@@ -125,7 +125,7 @@ const categoryData = {
       price:'$14,899',
       subcategory:'Utility',
       imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/63b6166e-5842-4cfc-b401-9fd59f41521e.png',
-      productLink:'/single_9.html',
+      productLink:'/poc_yamaha/single9.html',
     },
     {
       ID:"YMH875",
@@ -133,7 +133,7 @@ const categoryData = {
       price:'$19,999',
       subcategory:'Sport',
       imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2022/a61a7c61-b307-432b-8ff9-816ea8e9089b.png',
-      productLink:'/single_10.html',
+      productLink:'/poc_yamaha/single10.html',
     },
     
   ],
@@ -144,7 +144,7 @@ const categoryData = {
     price:'$6,199',
     subcategory:'Utility',
     imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/6605b84d-db43-459a-ac86-298eccf4c2c4.png',
-    productLink:'/single_5.html',
+    productLink:'/poc_yamaha/single5.html',
   },
   {
     ID:"YMH536",
@@ -152,7 +152,7 @@ const categoryData = {
     price:'$9,899',
     subcategory:'Utility',
     imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2023/2164525f-96aa-4452-bb6d-ba4b7f89a955.png',
-    productLink:'/single_6.html',
+    productLink:'/poc_yamaha/single6.html',
   },
   {
     ID:"YMH56",
@@ -160,7 +160,7 @@ const categoryData = {
     price:'$8,299',
     subcategory:'Sport',
     imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2022/72f18ed3-6777-41c1-a1f7-039b1d5c313a.png',
-    productLink:'/single_7.html',
+    productLink:'/poc_yamaha/single7.html',
   },
   {
     ID:"YMH661",
@@ -168,7 +168,7 @@ const categoryData = {
     price:'$3,099',
     subcategory:'Youth',
     imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2020/e864072c-26f3-41a9-bad0-1067321c24ac.png',
-    productLink:'/single_15.html',
+    productLink:'/poc_yamaha/single15.html',
   },
   {
     ID:"YMH894",
@@ -176,7 +176,7 @@ const categoryData = {
     price:'$7,299',
     subcategory:'Utility',
     imageUrl:'https://dd5394a0b8ca8e97ba29-abf76f3d91a2125517d6c7c409f095c7.ssl.cf1.rackcdn.com/content/common/Models/2022/beb7647f-8953-48b6-82c2-0134e44fcab2.png',
-    productLink:'/single_21.html',
+    productLink:'/poc_yamaha/single21.html',
   },
 ]
   
